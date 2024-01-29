@@ -1,0 +1,138 @@
+.logos{
+    display: flex;
+    margin-top: 20px;
+}
+    .logos img:first-child {
+        margin-right: 25px;margin-left: 25px;
+      }
+
+.titulo-principal{
+    text-align: center;
+    padding-left: 15%;
+    text-decoration: dashed;color:#82B1B4;
+    font-size: larger;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+main{
+    display: block;
+    margin: 0;
+}
+main {
+    top: 60px; 
+    bottom: 40px; 
+    overflow-y: auto; 
+    overflow-x: hidden; 
+}
+
+.principal {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.texto {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1em 3em 1.5em;
+}
+
+.logo {
+    width: 5em;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+#ingresar-texto {
+    background-color: #CCCCCC;
+    border: 2.5px solid #FFFFFF;
+    outline: none;
+    font-weight: bold;
+    font-size: larger;
+    color: #0A3871;
+    padding: 2em;
+    margin: 1em 0em;
+}
+
+#ingresar-texto::placeholder {
+    color: #0A3871;
+    font-weight: 500 ;
+}
+
+.principal-inferior {
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+}
+
+ button, .advertencia {
+    position: relative;    
+}
+
+.advertencia {
+    width: 11em;
+    right: 10.5em;
+    margin: 2px;
+}
+
+.botones {
+    display: flex;
+    width: 35em;
+    justify-content:space-around;
+}
+
+button {
+    
+    padding: 1em;
+    width: 15rem;
+    height:3rem;
+    border-radius: 20px;
+    border: 1px #0A3875 solid; background-color:#0A3871;
+}
+
+.desencriptar {
+    background-color:#ffffff;
+}
+
+.mensaje {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 1em 1em 1.5em;
+    justify-content: space-between;
+    color: #343A40;
+    text-align: center;
+    margin: 0 1.7em;
+}
+
+.contenido-mensaje {
+    height: 85%;
+}
+
+.mensaje img {
+    width: 60%;
+}
+
+.mensaje p {
+   font-size: medium;
+}
+
+.mensaje-encriptado {
+    text-align: left;
+    white-space: wrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+}
+
+#copiar {
+    background-color: #FFFFFF;
+}
+
+footer {
+    bottom: 0;
+    text-align: center;
+}

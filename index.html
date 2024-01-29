@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Encriptador de Texto</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="reset.css">
+        
+    </head>
+    <body style="background-color: #cccccc;">
+        
+            <div class="logos">
+                    <img style="width: 70px; height: 70px" src="logo ONE.png"/>
+                    <img style="width: 70px; height: 70px" src="logo-aluraespanhol.svg"/>
+                <header>
+                            <div class="imagen-principal"><img style="width: 40%; height: 40%; 
+                                margin-left: 60%" src="encriptador d texto.png"/> 
+                            </div>
+                </header>  
+            </div>
+            <main class="principal">        
+                <section class="texto">
+                    
+                    <textarea name="ingresar-texto" id="ingresar-texto" cols="30" rows="15" placeholder="Ingrese el texto aquí"></textarea>
+                    <article class="principal-inferior">
+                        <img class="advertencia" src="advertencia.svg" alt="advertencia"/> 
+                        
+                        <div class="botones">
+                            <button onclick="encriptar();" class="encriptar">Encriptar</button>
+                            <button onclick="desencriptar();" class="desencriptar">Desencriptar</button>
+                        </div>
+                    </article>
+                </section>
+                <section class="mensaje">
+                    <article id="bloque-mensaje" class="contenido-mensaje">
+                        <img id="muñeco" src="muñeco.png" alt="muñeco">
+                        <h3 id="ningun-mensaje">Ningún Mensaje fue encontrado</h3>
+                        <p id="texto-a-copiar">Ingresa el texto que desees encriptar o desencriptar</p>
+                    </article>    
+                    <button onclick="copiar();" id="copiar" style="visibility: hidden;">Copiar</button>
+                </section>
+            </main>
+            <div >
+
+            </div>
+        <footer>
+            <img src="">
+            <p class="copyright">&copy; Pedro Galvis - <span id="peterg"></span></p>
+        </footer>
+        <script src="app.js"></script>
+    </body>
+</html>
